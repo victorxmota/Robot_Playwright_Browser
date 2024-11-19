@@ -1,6 +1,6 @@
 *** Setting ***
-Resource    ../resources/serve-rest-front.resource
-
+Resource        ../resources/serve-rest-front.resource
+Suite Teardown  Close Browser  ALL
 
 *** Test Cases ***
 login com sucesso serve rest front
